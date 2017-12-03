@@ -1,0 +1,56 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+main, header {
+    background-color: #f8f9fa;
+}
+
+.custom-padding {
+    padding: 15px;
+}
+
+.custom-padding-top {
+    padding-top: 30px;
+}
+
+.custom-padding-bottom {
+    padding-bottom: 30px;
+}
+
+/* Carousel  Styling*/
+#app .carousel {
+    width: 70%;
+    margin: 0 auto;
+}
+
+/* Information section about the book */
+.information div {
+    padding: 10px;
+}
+
+.information div:first-of-type, h2 {
+    font-size: 2em;
+    font-family: 'Cormorant Garamond', serif;
+    text-align: center;
+}
+
+/* Information Tabs */
+#book-info, #about-author, #about-publisher, #book-reviews {
+    padding: 10px;
+}
+
+/* Form */
+form {
+    margin: 0 auto;
+}
+
+/* Footer */
+footer {
+    background-color: #666;
+    color: white;
+}
+
+footer p {
+    margin: 0;
+}
